@@ -1,0 +1,17 @@
+[package]
+name = "pass-yubikey"
+version = "0.1.0"
+authors = ["Ryan Petschek <petschekr@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+pcsc = "2"
+sloppy-rfc4880 = "0.1.2"
+rust-crypto = "^0.2"
+libflate = "0.1"
+num = "0.2"
+clipboard = "0.5.0"
+url = "1.7.2"
+percent-encoding = "1.0.1"
+libreauth = "0.11.0"
+walkdir = "2"
